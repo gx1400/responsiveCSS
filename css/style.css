@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+<style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+</style>
 
 * {
 	box-sizing: border-box;
@@ -21,21 +24,28 @@ a:hover {
 	padding-bottom: 5px;
 }
 
-.content-peach {
-	width: 100%;
-	background-color: #E9C893;
+.anchor-green {
+	display: block;
+	height: 70px;
+	background-color: #3CC47C;
 }
 
 .content-green {
 	width: 100%;
 	background-color: #3CC47C;
-	margin-top: 0;
+	padding-bottom: 40px;
 }
 
-[class*="col-"] {
-	float: left;
-	padding: 15px;
-	background-color: white;
+.anchor-peach {
+	display: block;
+	height: 70px;
+	background-color: #E9C893;
+}
+
+.content-peach {
+	width: 100%;
+	background-color: #E9C893;
+	padding-bottom: 40px;
 }
 
 html {
@@ -51,7 +61,7 @@ header {
 	position: fixed;
 	background: #828081;
 	width: 100%;
-	height: 75px;
+	height: 80px;
 	border-bottom: 2px solid #1E392A;
 	z-index: 100;
 	margin-right: 8px;
@@ -92,52 +102,29 @@ nav {
 	margin-left: -10px;
 }
 
-h1.headline {
-	text-align: center; 
-	font-size: 60px;
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
-	font-style: oblique; 
 	font-weight: bold;
+	margin: 0;
+}
+
+h1 {
+	font-size: 60px;
+	font-style: oblique; 
 	color: #1E392A;
 	margin: 0;
 }
 
 h2 {
-	text-align: center;
-	font-size: 40px;
-	font-family: 'Shadows Into Light', cursive;
-	font-weight: bold;
-	margin: 0;
+	font-size: 50px;
 }
 
 p {
 	margin: 0;
 	text-align: center;
-}
-
-.menu {
-	background-color: green;
-	max-width: 200px;
-}
-
-.menu ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.menu li {
-	padding: 8px;
-	max-width: 100px;
-	margin-bottom: 7px;
-	background-color: green;
-	text-align: center;
-	color: purple;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-	background-color: yellow;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
 }
 
 .footer {
@@ -187,9 +174,7 @@ p {
 	float: right;
 }
 
-h1 {
-	text-align: center;
-}
+
 
 a:hover#menu-icon {
 	background-color: #1E392A;
