@@ -8,6 +8,11 @@ https://designschool.canva.com/blog/website-color-schemes/
 Responsive menu reference:
 http://treehouse-blog.s3.amazonaws.com/Respond-Menu/index.html#
 
+Green: 3CC47C
+Forest: 1E392A
+Tan: E9C893
+Grey: 828081
+
 */
 
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
@@ -66,6 +71,7 @@ html {
 
 body {
 	display: block;
+	text-align: center;
 	margin: 0;
 }
 
@@ -145,6 +151,8 @@ p {
 	font-size: 14px;
 	padding: 3px;
 }
+
+
 
 .footer p{
 	text-align: center;
