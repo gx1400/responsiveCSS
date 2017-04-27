@@ -25,6 +25,7 @@
 				
 					<ul>
 						<li><a href="#">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
 						<li><a href="#resume">RESUME</a></li>
 						<li><a href="#hobby">HOBBY</a></li>
 						<li><a href="#contact">CONTACT</a></li>
@@ -35,49 +36,83 @@
 			<div class="pic" style="padding-top: 76px">
 				<br><br>
 				<div class="headlinePic">
-					<img src="images/MeInNYC.jpg"></img>
+					<img id="headlinePic" src="images/MeInNYC.jpg"></img>
 				</div>
 			</div>
 			<div class="content-peach">
 					
 				<h1 class="headline">Hey There!</h1>
 				<br>
-				<p style="text-align: center;">
-					I'm Derek Rowland, an engineer and hobbyist living and working 
-					in the Kansas City metro area. <br>
-					I have a passion for solving problems and learning new skills.  
-					I tinker with everything from <br>
-					electronics and programming to woodworking, homebrewing, and building things.
-							
-					<br><br>
-					Enjoy perusing some of my projects and feel free to reach out!
-					<br><br>
-				</p>
+				
 			</div>			
 			
 			<section id="resume">
 				<div class="content-green">
 					<br>
-					<h2 class="content">Resume</h2>
-					<br><br>
+					<h2>About</h2>
+						<p>
+						I'm Derek Rowland, an engineer and hobbyist living and working 
+						in the Kansas City metro area. <br>
+						I have a passion for solving problems and learning new skills.  
+						I tinker with everything from <br>
+						electronics and programming to woodworking, homebrewing, and building things.
+							
+						<br><br>
+						Enjoy perusing some of my projects and feel free to reach out!
+						<br><br>
+					</p>
 			
+				</div>
+			</section>
+			
+			<section id="about">
+				<div class="content-peach">
+					<br>
+					<h2>Resume</h2>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+									
 				</div>
 			</section>
 			
 			<section id="hobby">
-				<div class="content-peach">
+				<div class="content-green">
 					<br>
-					<h2 class="content">Hobbys & Projects</h2>
+					<h2>Hobbys & Projects</h2>
 					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					
 				</div>
 			</section>
 			
 			<section id="contact">
-				<div class="content-green">
+				<div class="content-peach">
 					<br>
-					<h2 class="content">Contact</h2>
+					<h2>Contact</h2>
 					<br><br>
-			
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+					<br><br>
+								
 				</div>
 			</section>
 			
@@ -106,7 +141,24 @@
 				<p>&copy;2017 Derek Rowland</p>
 			</div>
 		
+		<!-- JQuery, use from Google unless not found, then local -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			if (!window.jQuery) document.write('<script src="js/jquery3.2.1/jquery.min.js"><\/script>');
+		</script>
 		
+		<!-- Show/hide header image on scroll down -->
+		<script src="js/headerpic.js"></script>
 		
+		<!-- Google analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-98118063-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>
