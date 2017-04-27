@@ -68,6 +68,7 @@ a:hover {
 	background-color: #3CC47C;
 	height: 1px;
 	width: 80%;
+	border: none;
 }
 #FrmContact input {
 	background-color: #3CC47C;
