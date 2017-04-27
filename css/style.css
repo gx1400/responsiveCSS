@@ -8,11 +8,11 @@
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #3CC47C;
+	color: #1E392A;
 }
 
 a:hover {
-	color: #1E392A; 
+	color: #3CC47C; 
 }
 
 .content {
@@ -33,9 +33,7 @@ html {
 body {
 	height: 100%;
 }
-.container {
-	
-}
+
 
 header {
 
@@ -184,7 +182,7 @@ a:hover#menu-icon {
 .logo-left {
 	
 	position: relative;
-	left: 10%;
+	left: 30%;
 	height: 34px;
 	overflow: hidden;
 	float: left;
@@ -201,7 +199,7 @@ a:hover#menu-icon {
 	overflow: hidden;
 	float: left;
 	left: 50%;
-	margin-left: -34px;
+	margin-left: -40px;
 }
 
 .logo-generic img {
@@ -210,7 +208,7 @@ a:hover#menu-icon {
 
 .logo-right {
 	overflow: hidden;
-	left: 80%;
+	left: 65%;
 	position: relative;
 	height: 34px;
 	width: 45px;
