@@ -1,5 +1,5 @@
 $(document).ready(function() {
-				var contentOffset = getAboutOffset();
+	var contentOffset = getAboutOffset();
 				
 	function getAboutOffset() {
 		var sec = $("div.headlinePic");
@@ -17,9 +17,9 @@ $(document).ready(function() {
 		var windowTop = $(window).scrollTop();
 				
 		if (windowTop > contentOffset) {
-			$("div.circular--landscape").show();
+			$("div.circular--landscape").fadeIn(750);
 		} else {
-			$("div.circular--landscape").hide();
+			$("div.circular--landscape").fadeOut(750);;
 		}
 	});
 });
