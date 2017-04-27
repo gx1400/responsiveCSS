@@ -15,6 +15,12 @@ a:hover {
 	color: #3CC47C; 
 }
 
+
+.pic {
+	background-color: #E9C893;
+	padding-bottom: 5px;
+}
+
 .content-peach {
 	width: 100%;
 	background-color: #E9C893;
@@ -173,10 +179,6 @@ p {
 	
 }
 
-.pic {
-	background-color: #E9C893;
-	padding-bottom: 5px;
-}
 .headlinePic img{
 	width: 1000px;
 	height: auto;
