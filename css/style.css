@@ -1,20 +1,3 @@
-/* 
-Anchor information:
-https://pixelflips.com/blog/anchor-links-with-a-fixed-header
-
-Color schemes:
-https://designschool.canva.com/blog/website-color-schemes/
-
-Responsive menu reference:
-http://treehouse-blog.s3.amazonaws.com/Respond-Menu/index.html#
-
-Green: 3CC47C
-Forest: 1E392A
-Tan: E9C893
-Grey: 828081
-
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 <style>
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
@@ -75,6 +58,11 @@ body {
 	margin: 0;
 }
 
+hr {
+	width: 50%;
+	height: 3px;
+}
+
 header {
 	position: fixed;
 	background: #828081;
@@ -120,9 +108,15 @@ nav {
 	margin-left: -10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	margin: 0;
+}
+
+h3, h4, h5, h6 {
+	text-align: center;
 	font-weight: bold;
 	margin: 0;
 }
@@ -136,6 +130,15 @@ h1 {
 
 h2 {
 	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 30px;
 }
 
 p {
@@ -278,3 +281,20 @@ a:hover#menu-icon {
 	}
 	
 }
+
+/* 
+Anchor information:
+https://pixelflips.com/blog/anchor-links-with-a-fixed-header
+
+Color schemes:
+https://designschool.canva.com/blog/website-color-schemes/
+
+Responsive menu reference:
+http://treehouse-blog.s3.amazonaws.com/Respond-Menu/index.html#
+
+Green: 3CC47C
+Forest: 1E392A
+Tan: E9C893
+Grey: 828081
+
+*/
