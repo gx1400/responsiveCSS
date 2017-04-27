@@ -20,9 +20,9 @@ $(document).ready(function() {
 		var windowTop = $(window).scrollTop();
 				
 		if (windowTop > contentOffset) {
-			$("div.circular--landscape").fadeIn(750);
+			$("div.circular--landscape").fadeIn(500);
 		} else {
-			$("div.circular--landscape").fadeOut(750);;
+			$("div.circular--landscape").fadeOut(500);;
 		}
 	});
 });
