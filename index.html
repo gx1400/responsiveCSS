@@ -137,16 +137,27 @@
 			<section id="sec_contact">
 				<span class="anchor-peach" id="contact"></span>
 				<div class="content-peach">
-					<br>
 					<h2>Contact</h2>
 					<br><br>
-					<br><br>
-					<br><br>
-					<br><br>
-					<br><br>
-					<br><br>
-					<br><br>
-					<br><br>
+					<div id="frmDiv">
+					<form id="FrmContact" method="POST" action="https://formspree.io/derek.a.rowland@gmail.com">
+						<hr>
+						<label for="name">Name</label><br>
+						<input type="text" name="name" placeholder="Your name" required><br>
+						<hr>
+						<label for="email">Email Address</label><br>
+						<input type="email" name="_replyto" placeholder="Your email" required><br>
+						<hr>
+						<input type="text" name="_gotcha" style="display:none;" required />
+						<input type="hidden" name="_next" value="//derekrowland.com">
+						<input type="hidden" name="_subject" value="Email from Website Contact Form">
+						
+						<label for="message">Message</label><br>
+						<textarea name="message" placeholder="Your message"></textarea><br>
+						<button type="submit">Send</button>
+						<hr>
+					</form>
+					</div>
 					<br><br>
 								
 				</div>

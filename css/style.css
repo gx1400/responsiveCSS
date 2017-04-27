@@ -48,6 +48,44 @@ a:hover {
 	padding-bottom: 40px;
 }
 
+#frmDiv {
+	
+}
+
+#FrmContact {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #E9C893;
+	text-align: left;
+}
+
+#FrmContact label {
+	color: white;
+	
+}
+
+#FrmContact hr{
+	background-color: #3CC47C;
+	height: 1px;
+	width: 80%;
+}
+#FrmContact input {
+	background-color: #3CC47C;
+	text-align: left;
+	color: white;
+	width: 100%;
+	height: 30px;
+	
+}
+
+#FrmContact textarea {
+	background-color: #3CC47C;
+	color: black;
+	width: 100%;
+	height: 100px;
+	text-align: left;
+}
+
 html {
 	font-family: "Lucida Sans", sans-serif;
 }
