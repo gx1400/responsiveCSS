@@ -1,3 +1,6 @@
+// Reference:
+//http://stackoverflow.com/questions/28816773/making-an-image-appear-after-scrolling-past-header-attempts-not-working 
+
 $(document).ready(function() {
 	var contentOffset = getAboutOffset();
 				
