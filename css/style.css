@@ -154,6 +154,10 @@ p {
 	padding-left: 40px;
 }
 
+.fa:hover{
+	color: #3CC47C;
+}
+
 .footer {
 	background-color: #828081;
 	color: white;
@@ -210,49 +214,6 @@ a:hover#menu-icon {
 	border-radius: 4px 4px 0 0;
 }
 
-.logo-left {
-	
-	position: relative;
-	left: 30%;
-	height: 34px;
-	overflow: hidden;
-	float: left;
-}
-
-.logo-left  img {
-	height: 100%;
-}
-
-.logo-generic {
-	
-	position: relative;
-	height: 34px;
-	overflow: hidden;
-	float: left;
-	left: 50%;
-	margin-left: -40px;
-}
-
-.logo-generic img {
-	height: 100%;
-}
-
-.logo-right {
-	overflow: hidden;
-	left: 65%;
-	position: relative;
-	height: 34px;
-	width: 45px;
-	overflow: hidden;
-}
-
-
-
-.imgcontainer {
-	
-}
-
-
 @media only screen and (max-width: 600px) {
     /* For tablets: */
     header {
@@ -286,6 +247,10 @@ a:hover#menu-icon {
 		display: block;
 	}
 	
+	.fa {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 }
 
 /* 
