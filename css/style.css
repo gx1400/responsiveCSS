@@ -225,7 +225,7 @@ a:hover#menu-icon {
 @media only screen and (max-width: 600px) {
     /* For tablets: */
     header {
-		position: absolute;
+		position: relative;
 	}
 	
 	#menu-icon {
@@ -258,5 +258,5 @@ a:hover#menu-icon {
 	nav:hover ul {
 		display: block;
 	}
-	}
+	
 }
