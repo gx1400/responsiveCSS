@@ -15,9 +15,15 @@ a:hover {
 	color: #3CC47C; 
 }
 
-.content {
+.content-peach {
 	width: 100%;
 	background-color: #E9C893;
+}
+
+.content-green {
+	width: 100%;
+	background-color: #3CC47C;
+	margin-top: 0;
 }
 
 [class*="col-"] {
@@ -28,10 +34,6 @@ a:hover {
 
 html {
 	font-family: "Lucida Sans", sans-serif;
-}
-
-body {
-	height: 100%;
 }
 
 
@@ -90,6 +92,14 @@ h1.headline {
 	margin: 0;
 }
 
+h2.content {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	margin: 0;
+}
+
 p {
 	margin: 0;
 }
@@ -120,7 +130,7 @@ p {
 }
 
 .footer {
-	background-color: #3CC47C;
+	background-color: #828081;
 	color: white;
 	font-size: 14px;
 	padding: 3px;
