@@ -48,6 +48,46 @@ a:hover {
 	padding-bottom: 40px;
 }
 
+#hobby_pics {
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.hobby_img {
+	display: inline-block;
+	background-color: #E9C893;
+	padding: 20px 0 ;
+	margin: 20px 20px;
+	border-style: solid;
+	border-color: #828081;
+	border-width: 2px;
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+}
+
+.hobby_img img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%); 
+	display: block;
+	width: 130px;
+	height: auto;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.hobby_img p{
+	position: absolute;
+	text-align: center;
+	width: 90%;
+	bottom: 0;
+}
+
 #frmDiv {
 	
 }
