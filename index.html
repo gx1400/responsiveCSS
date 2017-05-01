@@ -126,21 +126,21 @@
 					<br><br>
 					
 					<div id="hobby_pics">
-						<a href="#">
+						<a href="javascript:void(0)" onclick='show(0)'>
 							<div class="hobby_img">
 								<img src="images/hop.png" />
 								<p>Homebrewing</p>
 							</div>
 						</a>
 						
-						<a href="#">
-							<div class="hobby_img">
+						<a href="javascript:void(0)" onclick='show(1)'>
+							<div id="audioimg" class="hobby_img">
 								<img src="images/speaker_med.png" />
 								<p>Audio</p>
 							</div>
 						</a>
 						
-						<a href="#">
+						<a href="javascript:void(0)" onclick='show(2)'>
 							<div class="hobby_img">
 								<img src="images/wood_plane.png" />
 								<p>Woodworking</p>
@@ -185,7 +185,7 @@
 								
 				</div>
 			</section>
-			
+							
 			<div class="footer">
 				
 				<a href="https://github.com/gx1400/" target="_blank">
@@ -211,6 +211,28 @@
 				
 				<p>&copy;2017 Derek Rowland</p>
 			</div>
+			
+			<div id="homebrewingmodal" class="modal">
+				<div class="modalcontent">
+					<span class="close" onclick='closem(0)'>&times;</span>
+					<p>HOMEBREWING!</p>
+				</div>
+			</div>
+			
+			<div id="audiomodal" class="modal">
+				<div class="modalcontent">
+					<span class="close" onclick='closem(1)'>&times;</span>
+					<p>AUDIO!</p>
+				</div>
+			</div>
+			
+			<div id="woodworkingmodal" class="modal">
+				<div class="modalcontent">
+					<span class="close" onclick='closem(2)'>&times;</span>
+					<p>WOODWORKING</p>
+				</div>
+			</div>
+			
 		
 		<!-- JQuery, use from Google unless not found, then local -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -221,6 +243,17 @@
 		<!-- Show/hide header image on scroll down -->
 		<script src="js/headerpic.js"></script>
 		
+		<!-- Show/hide scripts for hobby modals -->
+		<script>
+			function show(index) {
+				document.getElementsByClassName('modal')[index].style.display = "block";
+			}
+			
+			function closem(index) {
+				document.getElementsByClassName('modal')[index].style.display = "none";
+			}
+		</script>
+				
 		<!-- Google analytics -->
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

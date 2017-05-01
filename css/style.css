@@ -304,6 +304,57 @@ a:hover#menu-icon {
 	border-radius: 4px 4px 0 0;
 }
 
+
+/* 
+##########################
+Modal window for hobbies 
+##########################
+*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+	padding-right: 10px;
+	margin-top: 96px;
+	left: 2%;
+	top: 0px;
+    width: 95%; /* Full width */
+    height: calc(100% - 110px);
+	height: -o-calc(100% - 110px); /* opera */
+	height: -webkit-calc(100% - 110px); /* google, safari */
+	height: -moz-calc(100% - 110px); /* firefox */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	border: 2px solid white;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+	overflow: auto;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Sizing for mobile */
 @media only screen and (max-width: 600px) {
     /* For tablets: */
     header {
