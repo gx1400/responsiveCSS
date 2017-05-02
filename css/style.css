@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-<style>
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-</style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
 
 * {
 	box-sizing: border-box;
@@ -28,6 +28,7 @@ a:hover {
 	display: block;
 	height: 70px;
 	background-color: #3CC47C;
+
 }
 
 .content-green {
@@ -128,6 +129,7 @@ a:hover {
 	height: 100px;
 	text-align: left;
 	font-size: 20px;
+	resize: vertical;
 }
 
 
@@ -193,7 +195,7 @@ nav {
 
 h1, h2 {
 	text-align: center;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: bold;
 	margin: 0;
 	word-wrap: break-word;
@@ -209,9 +211,10 @@ h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 100px;
 	font-style: oblique; 
-	color: #1E392A;
+	color: #3CC47C;
+	text-shadow: -4px -4px #1E392A;
 	margin: 0;
 }
 
