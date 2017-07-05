@@ -326,11 +326,13 @@ Modal window for hobbies
 	left: 2%;
 	top: 0px;
     width: 95%; /* Full width */
-    max-height: calc(100% - 110px);
-	max-height: -o-calc(100% - 110px); /* opera */
-	max-height: -webkit-calc(100% - 110px); /* google, safari */
-	max-height: -moz-calc(100% - 110px); /* firefox */
-    overflow: auto; /* Enable scroll if needed */
+    
+	/* max-height: calc(100% - 110px); */
+	/*max-height: -o-calc(100% - 110px);*/ /* opera */
+	/*max-height: -webkit-calc(100% - 110px);*/ /* google, safari */
+	/*max-height: -moz-calc(100% - 110px);*/ /* firefox */
+    height: 88%;
+	overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: #828081; /* Black w/ opacity */
 	border: 2px solid white;
@@ -383,7 +385,7 @@ Modal window for hobbies
 img.hobby {
 	width: auto;
 	max-height: 300px;
-	max-width: 90%
+	/*max-width: 90%*/
 	
 	
 }
